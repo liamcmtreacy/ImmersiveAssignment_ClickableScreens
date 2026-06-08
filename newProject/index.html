@@ -1,0 +1,36 @@
+<div id="splash" class="screen">
+    <h1>My VR Experience</h1>
+    <button onclick="goToMainMenu()">Continue</button>
+</div>
+
+<div id="mainMenu" class="screen hidden">
+    <h1>Main Menu</h1>
+    <button onclick="goToDifficulty()">Start</button>
+</div>
+
+<div id="difficulty" class="screen hidden">
+    <h1>Select Difficulty</h1>
+
+    <button onclick="selectDifficulty('Easy')">Easy</button>
+    <button onclick="selectDifficulty('Medium')">Medium</button>
+    <button onclick="selectDifficulty('Hard')">Hard</button>
+</div>
+
+<div id="explanation" class="screen hidden">
+    <h1>How To Play</h1>
+    <p>Instructions go here.</p>
+
+    <button onclick="startLoading()">Continue</button>
+</div>
+
+<div id="loading" class="screen hidden">
+    <h1>Loading...</h1>
+    <div id="loadingText">0%</div>
+</div>
+
+<div id="experience" class="screen hidden">
+    <h1>VR Experience Started</h1>
+</div>
+
+<link rel="stylesheet" href="assets/script.css">
+<script src="assets/script.js"></script>
